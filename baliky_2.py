@@ -8,10 +8,9 @@ baliky = {
 
 kod_baliku = input('Jaký je váš kód balíku? ')
 
-if kod_baliku ==  "B541X" or "B501X":
-    print(f"Balík byl předán kurýrovi.")
+if baliky[kod_baliku] == True:
+  print(f"Balík {kod_baliku} byl předán kurýrovi.")
 
 else:
-    print(f"Balík zatím nebyl předán kurýrovi.")
-
-#zkoušela jsem různá řešení, ale buď mi vybíhají oba výstupy, nebo stále dokola jeden. 
+  print(f"Balík {kod_baliku} zatím nebyl předán kurýrovi.")
+  
